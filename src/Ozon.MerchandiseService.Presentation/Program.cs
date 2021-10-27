@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Ozon.MerchandiseService.Presentation.Infrastructure.Extension;
 
-namespace Ozon.MerchandiseService.Presenation
+namespace Ozon.MerchandiseService.Presentation
 {
     public class Program
     {
@@ -12,6 +13,7 @@ namespace Ozon.MerchandiseService.Presenation
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); })
+                .AddInfrastructure();
     }
 }
