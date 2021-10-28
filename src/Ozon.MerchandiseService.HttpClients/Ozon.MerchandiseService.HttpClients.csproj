@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Ozon.MerchandiseService.HttpModels\Ozon.MerchandiseService.HttpModels.csproj" />
+      <ProjectReference Include="..\Ozon.MerchandiseService.Presentation\Ozon.MerchandiseService.Presentation.csproj" />
     </ItemGroup>
 
 </Project>

@@ -4,6 +4,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Ozon.MerchandiseService.HttpModels;
 
+
 namespace Ozon.MerchandiseService.HttpClients
 {
     public class MerchandiseServiceHttpClient
